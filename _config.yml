@@ -56,7 +56,7 @@ flickr_username:
 hyvor_talk_website_id: 476
 wakatime_username: my-user
 mailchimp_form_url: 
-formspree_email: lajuarezs@gmail.com
+formspree_token: xvovbwpy
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
