@@ -1,0 +1,103 @@
+title: Dev On
+subtitle: Posts de utilidad sobre programación
+description: >-
+  En este pequeño sitio podrás encontrar información de utilidad que
+  originalmente se escribió para uso personal pero que puede ser usado como apoyo
+  por alguien más
+url: ''
+baseurl: ''
+urls:
+  - text: Inicio
+    url: /
+  - text: Acerca de Mí
+    url: /about
+  - text: Blog
+    url: /blog
+  - text: Contacto
+    url: /contact
+author_logo: profile.png
+author: Dev On
+author_bio: 'Hola, mi nombre el Luis Juárez'
+author_email: lajuarezs@gmail.com
+author_location: Unknown
+author_website_url: 'https://github.com/AndresJz'
+typewrite-text: Bienvenido
+author_work_experiences:
+  - company_name: Google
+    company_logo: google.png
+    company_url: 'https://google.com'
+    designation: Software Engineer
+    description: Worked on various Google Products
+    visibility: false
+    New field 1: ''
+author_education_details:
+  - college_logo: mit.png
+    college_name: MIT
+    college_url: 'https://mit.org'
+    college_degree: CS Engineer
+    description: Bachelor of Technology
+    visibility: false
+author_project_details:
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: 'https://gamershub.in'
+    visibility: false
+twitter_username: 
+github_username: andresjz8
+facebook_username: 
+linkedin_username: 
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
+hyvor_talk_website_id: 476
+wakatime_username: my-user
+mailchimp_form_url: 
+formspree_email: lajuarezs@gmail.com
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+paginate: 4
+per_page: 4
+paginate_path: '/blog/page/:num/'
+collections:
+#  - products
+  products:
+    output: true
+  authors:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
+  - scope:
+      path: gallery
+    values:
+      permalink: '/:path/:basename:output_ext'
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-menus
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+destination: ./build

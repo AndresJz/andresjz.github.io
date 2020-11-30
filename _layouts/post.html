@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="row" id="blog-post-container">
+  <div class="col-lg-8 offset-md-2">
+    {%- include blog_post_article.html -%}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">Acerca de {{site.author}}</div>
+      <div class="card-body">
+        <p class="author_bio">{{ site.author_bio }}</p>
+        {%- include github_star_button.html -%}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">Categorías</div>
+      <div class="card-body text-dark">
+        {%- include blog_categories.html -%}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">Links de utilidad</div>
+      <div class="card-body text-dark">
+        {% for i in site.urls %}
+        <li>
+          <a href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
