@@ -17,34 +17,33 @@ urls:
     url: /contact
 author_logo: profile.png
 author: Dev On
-author_bio: 'Hola, mi nombre el Luis Juárez'
+author_bio: 'Hola, mi nombre es Luis Juárez'
 author_email: lajuarezs@gmail.com
-author_location: Unknown
+author_location: Veracruz, México
 author_website_url: 'https://github.com/AndresJz'
 typewrite-text: Bienvenido
 author_work_experiences:
-  - company_name: Google
-    company_logo: google.png
+  - company_name: IWA Consolti
+    company_logo: iwa.png
     company_url: 'https://google.com'
     designation: Software Engineer
-    description: Worked on various Google Products
-    visibility: false
-    New field 1: ''
+    description: I have been Worked on various IWA internal Projects
+    visibility: true
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: 'https://mit.org'
-    college_degree: CS Engineer
-    description: Bachelor of Technology
-    visibility: false
+  - college_logo: tec.png
+    college_name: Tecnológico de Monterrey
+    college_url: 'https://tec.mx/es/central-de-veracruz'
+    college_degree: B.S. Computer Science and Technology
+    description: I was part of some active student governments about TI and Business, also I had the oportunity to give some workshops
+    visibility: true
 author_project_details:
-  - project_thumbnail: gamershub.png
-    project_title: Gamers Hub
-    project_description: A Platform built for Gamers and Game Devs
-    project_url: 'https://gamershub.in'
-    visibility: false
+  - project_thumbnail: github.png
+    project_title: Some POC's and snippets
+    project_url: 'https://github.com/AndresJz'
+    project_description: Some things that i've tested, and worked in my free time
+    visibility: true
 twitter_username: 
-github_username: andresjz8
+github_username: AndresJz
 facebook_username: 
 linkedin_username: 
 behance_username: 
