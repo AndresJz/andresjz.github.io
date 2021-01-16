@@ -25,7 +25,7 @@ typewrite-text: Bienvenido
 author_work_experiences:
   - company_name: IWA Consolti
     company_logo: iwa.png
-    company_url: 'https://google.com'
+    company_url: 'https://iwa.com.mx'
     designation: Software Engineer
     description: I have been Worked on various IWA internal Projects
     visibility: true
@@ -37,7 +37,7 @@ author_education_details:
     description: I was part of some active student governments about TI and Business, also I had the oportunity to give some workshops
     visibility: true
 author_project_details:
-  - project_thumbnail: github.png
+  - project_thumbnail: github.jpg
     project_title: Some POC's and snippets
     project_url: 'https://github.com/AndresJz'
     project_description: Some things that i've tested, and worked in my free time
